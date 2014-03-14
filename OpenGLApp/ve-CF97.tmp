@@ -1,0 +1,22 @@
+#pragma once
+
+#include "Vector2.h"
+#include "Matrix2x2.h"
+
+
+
+class CollisionCircle
+{
+public:
+	float radius;
+};
+
+inline
+bool Intersect(const CollisionCircle &c0, const Vector2 &p0,
+			   const CollisionCircle &c1, const Vector2 &p1)
+{
+	Vector2 p = p1 - p0;
+	float rsquared = (c0.radius + c1.radius) * (c0.radius + c1.radius);
+
+	return p.SquaredLength() < rsquared;
+}

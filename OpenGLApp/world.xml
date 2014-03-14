@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world>
+  <Entity name="Background">
+    <Component familyName ="Render" name="StaticSpriteRender">
+      <Attributes image="stormClouds.png" width ="20.0" height="20.0" />
+    </Component>
+    <Component familyName ="Movement" name="StraightPathMovement">
+      <Attributes speed="-0.2f" />
+    </Component>
+  </Entity>
+  
+  <Entity name="Bullet">
+    <Component familyName="Render" name="StaticSpriteRender">
+      <Attributes image="Bullet.png" width="0.3" height="0.3" />
+    </Component>
+    <Component familyName="Damaging" name="Damaging">
+      <Attributes damage="10" damageOverTime="false" />
+    </Component>
+    <Component familyName="Collision" name="CircleCollision">
+      <Attributes radius="0.15" />
+    </Component>
+    <Component familyName="Movement" name="StraightPathMovement">
+      <Attributes speed="15" />
+    </Component>
+    <Component familyName ="Health" name ="Health">
+      <Attributes health="1" maxHealth="1" lives="0" />
+    </Component>
+  </Entity>
+
+  <Entity name="SmallExplosion">
+    <Component familyName="Render" name="StaticSpriteRender">
+      <Attributes image="smallExplosion.png" width ="0.5" height="0.5" />
+    </Component>
+    <Component familyName="Think" name="TimedDeletionThink">
+      <Attributes lifetime="0.3" />
+    </Component>
+  </Entity>
+  
+</world>
+

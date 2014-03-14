@@ -1,0 +1,78 @@
+﻿Build started 10/21/2013 5:23:58 PM.
+     1>Project "C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\OpenGLApp\OpenGLApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer.cpp AnimatedSpriteRenderComponent.cpp ParticleSystemRenderComponent.cpp StaticSpriteRenderComponent.cpp ThinkComponent.cpp BasicAccelPlaneMovementComponent.cpp BasicAirplaneMovementComponent.cpp PlasmaParticleMovementComponent.cpp StraightPathMovementComponent.cpp CollisionComponent.cpp Airplane.cpp Application.cpp b2BroadPhase.cpp b2DynamicTree.cpp Bullet.cpp Camera.cpp CollisionSubsystem.cpp Effect.cpp Entity.cpp EntityFactory.cpp Gun.cpp main.cpp PathMovementComponent.cpp Powerup.cpp SpawnThinkComponent.cpp World.cpp
+         Renderer.cpp
+         AnimatedSpriteRenderComponent.cpp
+         ParticleSystemRenderComponent.cpp
+         StaticSpriteRenderComponent.cpp
+         ThinkComponent.cpp
+         BasicAccelPlaneMovementComponent.cpp
+         BasicAirplaneMovementComponent.cpp
+         PlasmaParticleMovementComponent.cpp
+         StraightPathMovementComponent.cpp
+         CollisionComponent.cpp
+         Airplane.cpp
+         Application.cpp
+         b2BroadPhase.cpp
+         b2DynamicTree.cpp
+         Bullet.cpp
+         Camera.cpp
+         CollisionSubsystem.cpp
+         Effect.cpp
+         Entity.cpp
+         EntityFactory.cpp
+         Compiling...
+         Gun.cpp
+         main.cpp
+         PathMovementComponent.cpp
+         Powerup.cpp
+         SpawnThinkComponent.cpp
+         World.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\Release\OpenGLApp.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Matrix2x2.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\Release\OpenGLApp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\Release\OpenGLApp.lib" /MACHINE:X86 /SAFESEH Release\Color4f.obj
+         Release\Renderer.obj
+         Release\RenderList.obj
+         Release\AnimatedSpriteRenderComponent.obj
+         Release\ParticleSystemRenderComponent.obj
+         Release\RenderComponent.obj
+         Release\StaticSpriteRenderComponent.obj
+         Release\ThinkComponent.obj
+         Release\BasicAccelPlaneMovementComponent.obj
+         Release\BasicAirplaneMovementComponent.obj
+         Release\PlasmaParticleMovementComponent.obj
+         Release\StraightPathMovementComponent.obj
+         Release\CollisionComponent.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Release\Airplane.obj
+         Release\Application.obj
+         Release\b2BroadPhase.obj
+         Release\b2DynamicTree.obj
+         Release\Bullet.obj
+         Release\Camera.obj
+         Release\CollisionLogicComponent.obj
+         Release\CollisionSubsystem.obj
+         Release\ConfigFile.obj
+         Release\Effect.obj
+         Release\Entity.obj
+         Release\EntityFactory.obj
+         Release\Gun.obj
+         Release\main.obj
+         Release\mmgr.obj
+         Release\Path.obj
+         Release\PathMovementComponent.obj
+         Release\Powerup.obj
+         Release\SpawnThinkComponent.obj
+         Release\Timer.obj
+         Release\World.obj
+            Creating library C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\Release\OpenGLApp.lib and object C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\Release\OpenGLApp.exp
+     1>Renderer.obj : error LNK2001: unresolved external symbol _SOIL_load_OGL_texture
+     1>C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\Release\OpenGLApp.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\rayond\Desktop\Spywarez\OpenGLApp - Copy\OpenGLApp\OpenGLApp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:30.01
